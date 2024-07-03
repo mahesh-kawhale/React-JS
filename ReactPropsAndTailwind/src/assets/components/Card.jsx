@@ -1,5 +1,5 @@
 import React from 'react'
-
+// *********************Props**************************
 // we have used object destructring {data} or (props) as object 
 function Card({username,btntext="visit me"}) {  // passing props to components
   // console.log("Props:",props);
