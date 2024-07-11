@@ -8,7 +8,11 @@ const Navbar = ({color}) => {
 
         alert("Hello I am running on every render");
       
-    }, [])
+    })
+
+    useEffect(()=>{
+      alert("Hello I am running first time");
+    },[])
 
     useEffect(() => {
 

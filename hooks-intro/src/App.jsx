@@ -10,13 +10,14 @@ function App() {
 
   useEffect(()=>{
     alert("count changed");
-    setcolor(color + 1);
+    setcolor(color + 1);      
   },[count])
 
 
   return (
     <>
-    <Navbar color={color}/>
+    {/* // When Navbar renderd useEffect hook get Triggred */}
+    <Navbar color={color}/>  
       <div>
         Counter:{count}
         <button onClick={()=>{setCount(count+1)}}>Update</button>
