@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(123, 210, 210);
+}
+
+.navbar {
+  margin: 10px;
+  width: 100%;
+  /* background-color: rgb(159, 195, 228); */
+  margin-bottom: 2rem;
+
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(239, 0, 0);
+}
